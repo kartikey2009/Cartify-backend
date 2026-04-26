@@ -17,7 +17,7 @@ public class ProductController {
     @Autowired       //field injection
     private ProductService service;
 
-
+    //
     @GetMapping("/products")
     public ResponseEntity<List<Product>> getAllProducts(){
         return new ResponseEntity<>(service.getAllProducts(), HttpStatus.OK);
