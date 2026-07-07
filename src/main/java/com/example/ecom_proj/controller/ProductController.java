@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 import java.util.List;
 
-@CrossOrigin(origins = "https://cartify-frontend-one.vercel.app")
+@CrossOrigin(origins = "https://cartify-2026.vercel.app")
 @RestController
 @RequestMapping("/api")
 public class ProductController {
